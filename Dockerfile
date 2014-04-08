@@ -19,7 +19,7 @@ RUN locale-gen en_US en_US.UTF-8
 RUN /usr/sbin/enable_insecure_key
 
 # expose port
-EXPOSE 22 80
+EXPOSE 22
 
 CMD ["/sbin/my_init"]
 

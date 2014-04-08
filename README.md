@@ -25,8 +25,12 @@ For running this image you just need to:
 
 After that you can ssh into it:
 
-    ssh root@127.0.0.1 -p 2222
+    ssh root@127.0.0.1 -i key.pem -p 2222
 
-(password="pass")
+Root info:
 
-Port 22 is exposed for ssh access.
+    user="root"
+    password="pass"
+
+
+Port 22 is exposed for ssh access. Remember that key.pem is an insecure key.
